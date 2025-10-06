@@ -1,6 +1,4 @@
-# terraform-google-relianoid-enterprise
 # RELIANOID Enterprise Edition – GCP Terraform Module
-
 This guide explains how to deploy the **RELIANOID Enterprise Edition** virtual machine on **Google Cloud Platform (GCP)** using the official Terraform module from the **Terraform Registry**.
 
 ---
