@@ -47,7 +47,7 @@ resource "google_compute_instance" "relianoid_vm" {
 
   boot_disk {
     initialize_params {
-      image = "projects/relianoid-public/global/images/relianoid-enterprise-edition"
+      image = "projects/relianoid-public/global/images/relianoid-enterprise-edition-new"
     }
   }
 
@@ -64,3 +64,4 @@ resource "google_compute_instance" "relianoid_vm" {
     ssh-keys = "${var.admin_username}:${file(var.public_ssh_key_path)}"
   }
 }
+
