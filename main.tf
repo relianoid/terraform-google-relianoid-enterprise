@@ -47,7 +47,7 @@ resource "google_compute_instance" "relianoid_vm" {
 
   boot_disk {
     initialize_params {
-      image = "projects/relianoid-public/global/images/relianoid-enterprise-edition-new"
+      image = "projects/relianoid-public/global/images/relianoid-enterprise-edition-v-8-5-image-final"
     }
   }
 
